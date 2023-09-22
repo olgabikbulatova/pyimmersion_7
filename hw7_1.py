@@ -26,5 +26,3 @@ def group_rename(new_namepart: str = 'yyy',
         os.rename(name, new_name)
     return
 
-
-group_rename()
